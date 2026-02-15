@@ -5,9 +5,9 @@ import streamlit.components.v1 as components
 import os
 
 # Configuration de la page
-st.set_page_config(page_title="Cosmetix Intelligence", page_icon="💄", layout="wide")
+st.set_page_config(page_title="TalcSense", page_icon="💄", layout="wide")
 
-# Style CSS pour un look "Expert"
+# Style CSS 
 st.markdown("""
     <style>
     .main { background-color: #f8f9fa; }
@@ -30,7 +30,7 @@ try:
     df = load_data()
     
     # Titre principal
-    st.title("💄 Cosmetix Intelligence : Analyse du Talc")
+    st.title("💄 TalcSense : Analyse du Talc")
     
     # --- KPI : LES CHIFFRES CLÉS ---
     c1, c2, c3, c4 = st.columns(4)
